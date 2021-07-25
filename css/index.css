@@ -1,0 +1,145 @@
+
+/* NAVIGATION BAR */
+
+body {
+    background-color: #F0E3CE;
+}
+
+.navBar {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+}
+
+.navTabs {
+    padding: 25px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profilePic {
+    border-radius: 50%;
+    padding: 100px;
+}
+
+.logo {
+    display: inline-block;
+    height: 100px;
+    justify-content: left;
+    margin: 25px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 40px;
+    font-size: 150%;
+    color:#242F43;
+}
+
+.navigation{
+    display: inline-block;
+    align-items: right;
+}
+
+/* HERO IMAGE */
+
+.profilePic {
+    align-items: center;
+}
+
+.heroImg {
+    display: inline-flex;
+    margin: 4%;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.heroAbout {
+    display: inline-block;
+    margin: 2%;
+    padding: 100px;
+}
+
+section {
+    display: inline-block;
+}
+
+.content {
+    display: flex;
+
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+   text-decoration: none;
+   background-color: #373737;
+   color: white;
+   border-radius: 8%; 
+   padding: 10px;
+}
+
+/* MY WORK SECTION */
+
+.myWork {
+    display: inline-grid;
+
+    align-content: space-between;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    margin: 2%;
+}
+
+.HappyHippie {
+    display: block;
+    background-color: #8C60C5;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.RWDdesign {
+    display: block;
+    background-color: #8CAA81;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.HappyGrocer {
+    display: block;
+    background-color: #F5B469;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.TravelApp {
+    display: block;
+    background-color: #6C8C8C;
+    padding: 20px;
+    border-radius: 10%;
+}
+/* FOOTER SECTION */
+
+.footer {
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    background-color: #6C8C8C;
+    height: 80px;
+}
+
